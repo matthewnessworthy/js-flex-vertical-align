@@ -28,3 +28,5 @@ Note
 ----
 
 The code is a modification of Paul Sprangers' "jQuery Flex Vertical Center" plugin (https://github.com/PaulSpr/jQuery-Flex-Vertical-Center), and by extension, Dave Rupert's FitText.js (http://fittextjs.com/)
+
+Inline HTML elements such as A, Span and B cannot use a margin, so you'll need to add the following CSS as well: display: inline-block;
